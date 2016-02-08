@@ -1,0 +1,16 @@
+02 - Usando Boilerplate como base
+**********************************************************************************************
+
+Ehh... sí, dije que antes que ponernos con el código hay que tener el contenido y luego ya entonces ponernos con el diseño y maquetación, pero... necesito algo de código XD
+
+Uso de HTML5 Boilerplate
+----------------------------------------------------------------------------------------------
+Me gusta usar esta plantilla como base, porque es un cúmulo de buenas prácticas y está hecho por personas que se lo han currado mucho y saben bastante del tema.
+
+Decir, que no lo voy a utilizar todo, de hecho, no se debería usar todo, simplemente lo que queramos/necesitemos.  Algunas notas:
+	- No voy a añadir archivos que se suelen agregar a un servidor, como .htaccess o 404.html
+	- No voy a añadir condicionales para buscar compatibilidad con navegadores antiguos o que no soporten JavaScript
+
+Basicamente agrego la estructura base de la página HTML, añadiendo normalize.css y un código de Google Analytics para ir viendo el tráfico.
+
+Me ha extrañado que en esta versión de HTML5 Boilerplate (v5.3.0) ya no han incluido los condicoinales para los IE antiguos (lo mismo es por su reciente defunción por parte de Microsoft) ni tampoco está Modernizr, lo cual es comprensible si se ha desechado dar soporte a los antiguos IE.
