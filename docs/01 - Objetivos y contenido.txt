@@ -1,0 +1,101 @@
+01 - Objetivos y contenido
+**********************************************************************************************
+
+En este punto, he creado un GitHub Page con lo que será mi futuro portfolio y lo he vinculado a mi dominio http://www.shinfduran.com/,  antes de proseguir un par de notas.
+
+¿Por qué usar GitHub Pages?
+----------------------------------------------------------------------------------------------
+Pros:
+	- Como desarrollador web es de vital importancia estar en GitHub y mostrar el código que creo.
+	- Es un buen acompañamiento a mi cuenta de GitHub.
+	- Es un hosting gratuito y fácil de usar especialmente cuando uno está familiarizado con GitHub.
+
+Contras:
+	- Está muy limitado, nos permite una web puramente front-end aunque existe la posibilidad de crear un blog con Jekyll de Ruby.
+
+¿Cómo vincular mi dominio a la página de GitHub?
+----------------------------------------------------------------------------------------------
+El proceso del registro de dominio y posterior vinculación es algo nuevo, si bien surgen dudas, nada mejor que Google para solucionarlas.
+
+Básicamente son 2 pasos:
+	- Crear el archivo CNAME con el nombre de tu dominio
+	- Indicar en la configuración DNS de tu dominio la url de tu GitHub page indicándole el tipo CNAME
+
+Artículo donde lo explica: http://www.hongkiat.com/blog/github-with-custom-domain/
+
+¿Por dónde empiezo?
+----------------------------------------------------------------------------------------------
+Ya tengo mi GitHub page con su dominio asociado, ¿Y ahora qué?
+
+Antes de empezar a picar código, lo primero que hace falta tener claro son los objetivos, el motivo de usar GitHub pages y el contenido del portfolio.
+
+Objetivos:
+	- Definir mi perfil profesional, campos de conocimiento y trabajo deseado
+	- Utilizar la web como punto de inicio para darme a conocer y generar un branding personal
+	- Definir mi personalidad, inquietudes, aficiones,...
+	- Servir como punto de información de otras redes sociales en las que estoy
+	- Usar la web en si como un proyecto
+	- Mostrar los proyectos que he realidado
+	- Métodos para contactar conmigo
+
+Contenido:
+	- Descripción personal y técnica
+	- Redes sociales a las que pertenezco
+	- Mi trabajo o contenido creado
+	- Forma de contacto
+
+El contenido es el rey
+----------------------------------------------------------------------------------------------
+Si bien es una máxima, en este caso en particular el contenedor (portfolio) también es muy importante, pero eso luego.
+
+De primeras, es necesario saber qué es lo que queremos comunicar, sin ambiguedades, a partir de ahí decidir qué sería la mejor opción para mostrarlo y hacelo bien si el objetivo es mostrar nuestras habilidades de diseñador/front-end.
+
+No existe un modelo típico de portfolio, puede variar mucho, más incluso si tu objetivo es buscar trabajo de diseñador/publicista, ahí la imaginación y creatividad debe tener un plus adicional.
+
+La estructura convencional es la siguiente:
+	- Menú superior que lleva a las diferentes secciones.  Estas pueden ser otras páginas o puntos de la misma página
+	- Imagen inicial o avatar propio, acompañado de una breve descripción de nuestro perfil profesional
+	- Redes sociales
+	- Breve comentario sobre nosotros, lo que buscamos, en definitiva, un texto personal que nos defina (About me)
+	- Skill o habilidades técnicas o personales
+	- Trabajos realizados, el portfolio en si
+	- Métodos de contacto
+
+No existe un orden fijo, las redes sociales se pueden dejar al fondo, aunque normalmente estar arriba cerca de la imagen personal.  El contacto suele dejarse para el final, pero ya depende de cada cual, sus gustos y enfoque.
+
+También como contenido, según el caso, es posible añadir artículos, tutoriales u otras colaboraciones que se hayan realizado, aunque no es lo más habitual y entra más dentro de lo que sería el perfil de personas con bastante experiencia orientados hacia la docencia.
+
+Inspiración
+----------------------------------------------------------------------------------------------
+Algunos ejemplos para inspirarnos:
+
+http://www.thegregthompson.com/
+	- Cumple con la estructura habitual, al inicio nombre, después perfil profesional, seguido por las redes sociales
+	- Luego las habilidades y experiencia
+	- Remata con un About me y Contact
+	- Tiene todas las secciones mencionadas, es responsive design y está bien, mi sensación es que es demasiado simple y minimalista, que también es cierto, puede que ese sea un rasgo que quiera resaltar
+	- A favor: Tiene una performance muy buena, una carga rápida 
+
+http://www.christhurman.com/
+	- Menú superior fijo a las secciones dentro de la misma página
+	- Simple, pero estéticamente muy agradable
+	- Incluye todas las secciones típicas
+
+http://www.andypatrickdesign.com/
+	- Destaca el uso de tipografía para destacar
+	- Secciones típicas: About me, portfolio, Contact Me
+
+https://carlosazaustre.es/blog/
+	- Esta es una mezcla entre portfolio y blog.  Ya que el blog es la base y las secciones del portfolio son secciones de es eblog
+	- De primeras aparece el menú, seguido del perfil profesional, a continuación artículos del blog
+	- Sección personal y otras con competencias
+	- Diferentes secciones, con un perfil más tirando a formador
+	- Redes sociales en el footer y en el lateral de la versión desktop
+	- El "Contact Me" accesible desde el footer
+
+http://miguelnieva.com/
+	- Este es un portfolio diferente en tanto que a más que promocionarse de cara a un posible trabajo es más un trabajo de branding personal como formador
+	- Mucho peso hacia las redes sociales
+	- Estilo blog con artículos, es más un blog que un portfolio
+
+Igualmente se puede buscar en Google: "Portfolio [especialidad]" y echar un vistazo a más portfolios
