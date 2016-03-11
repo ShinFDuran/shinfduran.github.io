@@ -1,0 +1,58 @@
+03 - Ahora sí, definiendo el contenido
+**********************************************************************************************
+
+Hora de decidir lo que quiero agregar a la página y a ser posible el contenido final.
+
+Objetivos:
+	- Definir mi perfil profesional, campos de conocimiento y trabajo deseado
+	- Utilizar la web como punto de inicio para darme a conocer y generar un branding personal
+	- Definir mi personalidad, inquietudes, aficiones,...
+	- Servir como punto de información de otras redes sociales en las que estoy
+	- Usar la web en si como un proyecto
+	- Mostrar los proyectos que he realidado
+	- Métodos para contactar conmigo
+
+Contenido:
+	- Descripción personal y técnica
+	- Redes sociales a las que pertenezco
+	- Mi trabajo o contenido creado
+	- Forma de contacto
+
+Perfil técnico
+----------------------------------------------------------------------------------------------
+Mi objetivo es ser Web Performance Manager, sin embargo, no es algo que uno pueda aprender fácil y requiere unos conocimientos importantes de front y back, especialmente el primero.
+
+Inicialmente voy a tener 2 posibles vertientes en las que tengo que profundizar:
+	- Front-end: Para mejorar la optimización es necesario tener conocimientos avanzados de front, no sólo en su realización, sino cómo los va gestionando los navegadores para saber aspectos tanto la velocidad de descarga, como la cantidad, el renderizado y otros aspectos.  Aquí el campo es amplio, con una cantidad importante de frameworks y librerías como Bootstrap, jQuery, Angular o React.
+	- Back-end: Esto es más sencillo, a pesar de tener conocimientos de PHP y Python, habiendo tocado incluso Django, voy a desechar todas esas opciones y centrarme en Node y JavaScript usando Express como framework principal y MongoDB como base de datos, eso sí, sin acerle ascos a MySQL si es necesario.
+
+Resumiendo: MEAN full stack developer profundizando en el front-end... de momento voy a lo sencillo y a lo que más me interesa profundizar: "Front-End Developer" e intentar hacer un guiño a JavaScript
+
+Redes sociales
+----------------------------------------------------------------------------------------------
+- GitHub: Como no, la red social de los desarrolladores
+- LinkedIn: Del tirón, la red social de los profesionales por excelencia
+- Twitter: También, aunque he de reconocer que la tengo abandonada
+- Facebook: Tengo mis dudas, ya que la uso sobre todo de forma personal
+
+Mis trabajos
+----------------------------------------------------------------------------------------------
+Por desgracia sólo tengo uno actualmente online www.usbproject.com.  El cual realicé como práctica de empresa cuando hice el curso de JAVA en FORMAN, es en PHP y no puedo mostrar el código, si bien está bastante modular no estoy orgulloso del resultado final, sobre todo porque ya al final se fueron añadiendo algunas features en plan parche.
+
+El portfolio es el otro trabajo online y a parte están mis repositorios, pero no merece la pena hacerles hueco.
+
+De momento no agregaré portfolio
+
+Retomando
+----------------------------------------------------------------------------------------------
+Ha pasado mucho tiempo desde que empecé esta tercera "entrega", ha sido un poco como el perro que se persigue la cola y durante todo ese tiempo he tenido un simple texto en mi dominio.
+
+Últimamente he estado mirando técnicas de productividad y metodologías ágiles.  Así que he optado por uno de los principios, es preferible tener un "producto" en la calle y después refinar, que no estar continuamente pensando que si este contenido, que si este diseño, que si este efecto,...
+
+Tener ya una web personal, aunque sea un desastre y en posteriores iteraciones irla refinando, entre otras cosas, para que sea un punto de salida para ponerme con otros posibles proyectos que posteriormente sean agregados a esta web e ir implementando cosas nuevas a modo de features.
+
+He usado de base este tema:
+http://startbootstrap.com/template-overviews/freelancer/
+
+Posteriormente he tomado sólo lo que me hacía falta y he limpiado el css que venía adjunto; también he agregado algunas cosas, sobre todo los botones sociales del curso de Bootstrap que hice en Coursera.
+En este caso, no voy a minificar, ni usar otras técnicas a fin de mejorar el performance, eso lo dejo para posteriores webs.

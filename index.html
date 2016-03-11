@@ -2,28 +2,159 @@
 <html lang="es">
     <head>
         <meta charset="utf-8">
-        <title>ShinFDuran portfolio</title>
-        <meta name="description" content="Portfolio de ShinFDuran">
+        <title>Francisco Durán @ShinFDuran</title>
+        <meta name="description" content="Web personal de Francisco Durán @ShinFDuran">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="css/normalize.css">
+        <!-- **************  CSSs *********************** -->
+        <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-social.css">
+        <link rel="stylesheet" href="css/shinfduran.css">
+        <!-- Custom CSS -->
+
+        <!-- **************  Fuentes *********************** -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat:400,700">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
     </head>
-    <body>
+
+    <body id="page-top" class="index">
+        <!-- **************  Mensaje para navegadores "viejos" *********************** -->
         <!--[if lt IE 8]>
             <p class="browserupgrade">El navegador que estás usando es viejo... pero viejo, viejo.  Si quieres ver esta página y otras tantas en condiciones, te recomiendo que te cambies/actualices el navegador. Visita <a href="http://browsehappy.com/">Browsehappy</a> para descargarte un nuevo navegador ;).</p>
         <![endif]-->
 
-        
-        <p>Hello world! Pero ahora con HTML5 Boilerplate.</p>
+        <!-- **************  Barra de navegación *********************** -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <!-- Menú comprimido -->
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#page-top">ShinFDuran</a>
+                </div>
+                <!-- Menú desplegado -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="hidden">
+                            <a href="#page-top"></a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#about">Sobre mi</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#skills">Habilidades</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-        <!-- Scripts jQuery y otros
+        <!-- **************  Header con foto y perfil *********************** -->
+        <header class="jumbotron">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <img class="img-responsive" src="img/shinfduran.jpg" alt="Francisco Durán">
+                        <div class="intro-text">
+                            <span class="name">Francisco Durán @ShinFDuran</span>
+                            <hr class="star-light">
+                            <span class="skills">Front-End Web Developer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- **************  Descripción inicial sobre mi *********************** -->
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>Sobre mí</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-lg-offset-2">
+                        <p>Durante bastante tiempo estuve buscando un trabajo, a secas, hasta que un día cambió mi forma de pensar.</p>
+                        <p>Podría resumirse con la frase de Confucio: “Elige un trabajo que te guste y no tendrás que trabajar ni un día de tu vida.”</p>
+                        <p>¿En qué quiero trabajar? Actualmente, la respuesta sería de ingeniero de rendimiento web, por desgracia no es algo que se pueda aprender directamente de forma fácil, ni está lo suficiente valorado.</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <p>Así que iré paso a paso, mi perfil actual es el de un MEAN Full-Stack Developer, considero JavaScript como un lenguaje que aunque bastante feo (algún defecto tenía que tener) es muy potente y flexible.  El hecho de poder tenerlo tanto en el front, back e incluso en la base de datos demuestra las enormes posibilidades, y no menos importante, poder usarlo para programar drones.</p>
+                        <p>En estos momentos estoy buscando la oportunidad de participar activamente en proyectos como miembro de un equipo, para mejorar tanto profesional como personalmente mientras contribuyo a crear algo nuevo.</p>
+                        <p>Si bien el camino hacia mi objetivo no será fácil; al menos busco que sea apasionante y lleno de retos que me exijan dar lo mejor de mi.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- **************  Información de contacto *********************** -->
+        <section id="skills">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>Skills</h2>
+                        <hr class="star-primary">
+                    </div>
+                </div>
+                <div class="row">
+                    <p>Aquí deberían estar mis habilidades/conocimientos</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- **************  Footer/Contacto *********************** -->
+        <footer id="contacto" class="text-center" >
+            <div class="footer-above">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col col-md-6">
+                            <h3>Redes sociales</h3>
+                             <div>
+                                <a class="btn btn-social-icon btn-github" href="https://github.com/ShinFDuran"><i class="fa fa-github"></i></a>
+                                <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/shinfduran"><i class="fa fa-linkedin"></i></a>
+                                <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/ShinFDuran"><i class="fa fa-twitter"></i></a>
+                                <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/francisco.durannavarro"><i class="fa fa-facebook"></i></a>
+                                <a class="btn btn-social-icon btn-google-plus" href="mailto:franciscodurannavarro@hotmail.com"><i class="fa fa-envelope-o"></i></a>
+                            </div>
+                        </div>
+                        <div class="footer-col col-md-6">
+                            <h3>Contacto</h3>
+                            <p>Se libre de contactar conmigo por cualquiera de los medios, aunque lo más rápido es mediante mi e-mail.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-below">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            Copyright &copy; ShinFDuran 2016
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- **************  Scripts *********************** -->
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+        <!-- Scripts 
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
          -->
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <!-- **************  Google Analytics *********************** -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
