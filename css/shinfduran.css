@@ -204,3 +204,17 @@ footer .footer-below {
 .btn.active {
     outline: 0;
 }
+
+/* Estilos Avatar */
+.avatar{
+    width: 200px;
+    height: 200px;
+}
+@media(min-width:768px) {
+    .avatar{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+}

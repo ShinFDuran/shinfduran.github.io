@@ -1,0 +1,30 @@
+05 - Cambios Avatar
+**********************************************************************************************
+
+- Cambiar imagen/avatar.  
+	- Quiero usar picture y diferentes tamaños de imagen en función del dispositivo
+	- La foto más pequeña y en círculo, a viewport pequeño ocupando la mayor parte, a viewport grande un tamaño fijo
+
+Diseño Bootstrap
+----------------------------------------------------------------------------------------------
+Pudiera parecer que esta es una tarea trivial, pero no lo es ni de largo.  
+
+En primer lugar que tener en cuenta el diseño, en versión móvil quiero que la imagen sea redondeada y que ocupe un determinado tamaño (nada de %), al cambiar a escritorio que aumente.  Para eso hay que tener en cuenta los breakpoints de Bootstrap, que en este caso es el de los 768px.
+
+En el css personalizable hay que definir un ancho previo, versión móvil y otro posterior versión laptop.  A priori, para que no sea excesiva la imagen yo optaría por ancho 200px y 300px.
+
+Imágenes
+----------------------------------------------------------------------------------------------
+Si bien para esos tamaños, el ávatar podría perfectamente usarse una única imagen quiero probar con diferentes imágenes usando el nuevo elemento picture.
+
+La idea sería tener 4 imágenes, una pequeña de 200px y 400px (x2) y otra grande de 300px y 600px(x2) para tener en cuenta los dispositivos de mayor densidad de pixel.  Como imagen por defecto usaré la grande simple.
+
+Para conseguir esas imágenes de forma rápida y eficiente, usaré grunt con el task grunt-responsive-images.
+
+Uso de picture
+----------------------------------------------------------------------------------------------
+Como todavía no está ampliamente soportado además de agregar esta etiqueta agregaré el pollyfill Picturefill (posteriormente, para previamente hacer testeos online sin pollyfill).  Decir, que no agregaré soporte para IE9 o anteriores, de ahí que no use el fallback con <video>.  
+
+Cambios semánticos
+----------------------------------------------------------------------------------------------
+Para el picture, voy a meterlo dentro de un figure, además agregaré lo que es mi nombre y el rol como un figcaption de la imagen y sustituyendo los textos por encabezados, siendo h1 mi nombre para ya de paso ir tocando algo tema de seo.
