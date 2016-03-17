@@ -1,0 +1,47 @@
+06 - Imagen de fondo
+**********************************************************************************************
+
+
+Layout con imágenes de fondo
+----------------------------------------------------------------------------------------------
+A fin de hacerlo más llamativo y buscar cohesión entre la web personal y el blog agregaré el fondo que he usado en el blog y en diferentes redes sociales.  Algunas consideraciones
+
+Llegados a este punto tenía 2 opciones:
+	- Usar un color sólido que ocupara el 100% de la imagen
+	- Usar una imagen de fondo pero para que no se desmadrara demasiado en altas resoluciones estar limitado.  Al final opté por esta
+
+El container de Bootstrap tiene unos tamaños determinados:
+	xs - 100%
+	sm - 750px
+	md - 970px
+	lg - 1170px
+
+Utilizaré 3 anchos:
+	- 480px - Para móviles con pantallas pequeñas
+	- 970px - Para móviles/tablets con pantallas más grandes, con versión 2x
+	-1170px - Para portátiles/pcs, con versión 2x
+
+Conclusiones post-testeo
+----------------------------------------------------------------------------------------------
+Después de colocar los fondos y demás he dedicado un buen rato al testeo.  Me he creado un server simple con Node al que he vinculado la web de forma local, he aprobechado ese server para conectarme a través de diferentes dispositivos al servidor que además tenía habilitado un middleware de loggs llamado Morgan, eso me ha permitido de forma rápida poder ver a qué archivos se estaba accediendo.
+
+Dispositivos:
+	- Portátil usando Firefox y Chorme
+	- Huawei P8 con Chrome
+	- Móvil de marca desconocida con Android Browser
+	- Nokia Lumia 520 con IE
+	- ZTE Open con Firefox OS
+
+Conclusiones de Picture: 
+	- Lo reconoce tanto los navegadores del portátil como Huawei P8, el resto de dispositivos no lo muestran
+	- En el caso del Huawei P8 además ha descargado la versión de alta densidad
+	- El resto de navegadores no muestra imagen, habrá que esperar a ver cómo quedan tras aplicar Picturefill
+
+Conclusiones de fondo:
+	- En primer lugar es aceptado por todos los dispositivos
+	- Inicialmente las media queries son bien soportadas por los dispositivos que soportan picture
+	- El ZTE Open ha cargado el fondo pequeño y el mediox2
+	- El Nokia sólo el pequeño
+	- El Android marca blanca carca sólo el fondo pequeño
+
+Creo que unas conclusiones más confusas era difícil...

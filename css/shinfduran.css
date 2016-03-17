@@ -68,8 +68,8 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 200px;
-        padding-bottom: 100px;
+        padding-top: 100px;
+        padding-bottom: 50px;
     }
 
     header .intro-text .name {
@@ -147,7 +147,66 @@ section h2 {
     }
 }
 
-/* Estilos footer y social media */
+/********  Estilos personalizados header avatar y fondo ********/
+.jumbotron{
+    background-color: white;
+}
+.avatar{
+    width: 200px;
+    height: 200px;
+}
+@media(min-width:768px) {
+    .avatar{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+.fondo_avatar {
+    background-color: black;
+    background-image: url("../img/fondo-shinfduran-small.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+@media 
+only screen and (min-width: 970px) {
+    .fondo_avatar {
+        background-image: url("../img/fondo-shinfduran-mid.jpg");
+    }
+
+}
+
+@media
+only screen and (min-width: 970px),
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and ( min-resolution: 192dpi),
+only screen and ( min-resolution: 2dppx) {
+    .fondo_avatar {
+        background-image: url("../img/fondo-shinfduran-mid_x2.jpg");
+    }
+}
+
+@media 
+only screen and (min-width: 1170px) {
+    .fondo_avatar {
+        background-image: url("../img/fondo-shinfduran-large.jpg");
+    }
+
+}
+
+@media
+only screen and (min-width: 1170px),
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and ( min-resolution: 192dpi),
+only screen and ( min-resolution: 2dppx) {
+    .fondo_avatar {
+        background-image: url("../img/fondo-shinfduran-large_x2.jpg");
+    }
+}
+
+
+/***************** Social Media **********************/
 .btn-outline {
     margin-top: 15px;
     border: solid 2px #fff;
@@ -203,18 +262,4 @@ footer .footer-below {
 .btn:active,
 .btn.active {
     outline: 0;
-}
-
-/* Estilos Avatar */
-.avatar{
-    width: 200px;
-    height: 200px;
-}
-@media(min-width:768px) {
-    .avatar{
-        width: 300px;
-        height: 300px;
-    }
-}
-
 }
