@@ -7,10 +7,12 @@
     Francisco Durán (Shinfduran) -- Full-Stack -- @ShinFDuran
 
 # THANKS
-
+- Imagen de fondo: https://unsplash.com/photos/YD1uvthZwg4
+- Imágenes de tazas: http://www.zazzle.es/programming+tazas
     
 
 # TECHNOLOGY COLOPHON
 
     CSS3, HTML5
-    HTML5 Boilerplate, Normalize.css
+    HTML5 Boilerplate, BootStrap
+    Responsive Design

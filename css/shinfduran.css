@@ -129,7 +129,7 @@ header .intro-text .skills {
 }
 
 section {
-    padding: 25px 0;
+    padding: 65px 0 0 0;
 }
 
 section h2 {
@@ -199,7 +199,15 @@ only screen and (min-width: 1200px) {
     margin: 4px auto;
     max-width: 100%;
 }
-
+.badge-hight{
+    background-color: #69a62a;
+}
+.badge-mid{
+    background-color: #337ab7;
+}
+.badge-low{
+    background-color: #aaa;
+}
 
 /***************** Social Media **********************/
 .btn-outline {
