@@ -83,7 +83,7 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     .navbar-fixed-top {
-        padding: 25px 0;
+        padding: 15px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -129,22 +129,12 @@ header .intro-text .skills {
 }
 
 section {
-    padding: 100px 0;
+    padding: 25px 0;
 }
 
 section h2 {
-    margin: 0;
+    margin: 30px;
     font-size: 3em;
-}
-
-@media(max-width:767px) {
-    section {
-        padding: 75px 0;
-    }
-
-    section.first {
-        padding-top: 75px;
-    }
 }
 
 /********  Estilos personalizados header avatar y fondo ********/
@@ -163,46 +153,51 @@ section h2 {
 }
 
 .fondo_avatar {
-    background-color: black;
-    background-image: url("../img/fondo-shinfduran-small.jpg");
+    background-color: #333333;
+    background-image: url("../img/snow-road-xsmall.jpg");
     background-size: cover;
     background-position: center;
+    color: #FFFFFF;
 }
 
 @media 
-only screen and (min-width: 970px) {
+only screen and (min-width: 480px) {
     .fondo_avatar {
-        background-image: url("../img/fondo-shinfduran-mid.jpg");
+        background-image: url("../img/snow-road-small.jpg");
     }
 
-}
-
-@media
-only screen and (min-width: 970px),
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and ( min-resolution: 192dpi),
-only screen and ( min-resolution: 2dppx) {
-    .fondo_avatar {
-        background-image: url("../img/fondo-shinfduran-mid_x2.jpg");
-    }
 }
 
 @media 
-only screen and (min-width: 1170px) {
+only screen and (min-width: 768px) {
     .fondo_avatar {
-        background-image: url("../img/fondo-shinfduran-large.jpg");
+        background-image: url("../img/snow-road-mid.jpg");
     }
 
 }
 
-@media
-only screen and (min-width: 1170px),
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and ( min-resolution: 192dpi),
-only screen and ( min-resolution: 2dppx) {
+@media 
+only screen and (min-width: 992px) {
     .fondo_avatar {
-        background-image: url("../img/fondo-shinfduran-large_x2.jpg");
+        background-image: url("../img/snow-road-large.jpg");
     }
+
+}
+
+@media 
+only screen and (min-width: 1200px) {
+    .fondo_avatar {
+        background-image: url("../img/snow-road-hq.jpg");
+    }
+
+}
+
+/********  Content ********/
+.mug{
+    width: 80%;
+    display: block;
+    margin: 4px auto;
+    max-width: 100%;
 }
 
 

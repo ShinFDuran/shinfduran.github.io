@@ -62,8 +62,8 @@
         </nav>
 
         <!-- **************  Header con foto y perfil *********************** -->
-        <header class="jumbotron">
-            <div class="container fondo_avatar">
+        <header class="jumbotron fondo_avatar">
+            <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
                         <figure>   
@@ -93,13 +93,35 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4 col-lg-offset-2">
-                        <p>Durante bastante tiempo estuve buscando un trabajo, a secas, hasta que un día cambió mi forma de pensar.</p>
-                        <p>Podría resumirse con la frase de Confucio: “Elige un trabajo que te guste y no tendrás que trabajar ni un día de tu vida.”</p>
-                        <p>¿En qué quiero trabajar? Actualmente, la respuesta sería de ingeniero de rendimiento web, por desgracia no es algo que se pueda aprender directamente de forma fácil, ni está lo suficiente valorado.</p>
+                    <div class="col-xs-12 col-lg-4">
+                        <div class="row">
+                            <div class="col-xs-12 hidden-lg">
+                                <figure>   
+                                    <picture>                                
+                                        <source srcset="img/about-mug-big.jpg" media="(min-width: 376px)" />
+                                        <img class="mug" srcset="img/about-mug-small.jpg" alt="Taza Programador"> 
+                                    </picture>
+                                </figure>
+                            </div>
+                            <div class="col-xs-12">
+                                <p>Durante bastante tiempo estuve buscando un trabajo, a secas, hasta que un día cambió mi forma de pensar.</p>
+                                <p>Podría resumirse con la frase de Confucio: “Elige un trabajo que te guste y no tendrás que trabajar ni un día de tu vida.”</p>
+                            </div>
+                            <div class="col-xs-12 hidden-xs visible-lg">
+                                <figure>   
+                                    <picture>                                
+                                        <source srcset="img/about-mug-big.jpg" media="(min-width: 400px)" />
+                                        <img class="mug" srcset="img/about-mug-small.jpg" alt="Taza Programador"> 
+                                    </picture>
+                                </figure>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-lg-4">
+                        <p>¿En qué quiero trabajar? Actualmente, la respuesta sería de ingeniero de rendimiento web, por desgracia no es algo que se pueda aprender directamente de forma fácil, ni está lo suficiente valorado.</p>
                         <p>Así que iré paso a paso, mi perfil actual es el de un MEAN Full-Stack Developer, considero JavaScript como un lenguaje que aunque bastante feo (algún defecto tenía que tener) es muy potente y flexible.  El hecho de poder tenerlo tanto en el front, back e incluso en la base de datos demuestra las enormes posibilidades, y no menos importante, poder usarlo para programar drones.</p>
+                    </div>
+                    <div class="col-lg-4">
                         <p>En estos momentos estoy buscando la oportunidad de participar activamente en proyectos como miembro de un equipo, para mejorar tanto profesional como personalmente mientras contribuyo a crear algo nuevo.</p>
                         <p>Si bien el camino hacia mi objetivo no será fácil; al menos busco que sea apasionante y lleno de retos que me exijan dar lo mejor de mi.</p>
                     </div>
@@ -107,17 +129,47 @@
             </div>
         </section>
 
-        <!-- **************  Información de contacto *********************** -->
+        <!-- **************  Habilidades *********************** -->
         <section id="skills">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2>Skills</h2>
-                        <hr class="star-primary">
+                    <div class="col-xs-12">
+                        <h2 class="text-center">Skills</h2>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-md-push-6">
+                        <figure>   
+                            <picture>                                
+                                <source srcset="img/css-mug-big.jpg" media="(min-width: 400px)" />
+                                <img class="mug" srcset="img/css-mug-small.jpg" alt="Taza CSS"> 
+                            </picture>
+                        </figure>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-md-pull-6">
+                        <p>Aquí deberían estar mis habilidades/conocimientos</p>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <!-- **************  Proyectos *********************** -->
+        <section id="skills">
+            <div class="container">
                 <div class="row">
-                    <p>Aquí deberían estar mis habilidades/conocimientos</p>
+                    <div class="col-xs-12">
+                        <h2 class="text-center">Proyectos</h2>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <figure>   
+                            <picture>                                
+                                <source srcset="img/node-mug-big.jpg" media="(min-width: 400px)" />
+                                <img class="mug" srcset="img/node-mug-small.jpg" alt="Taza Node"> 
+                            </picture>
+                        </figure>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p>El único proyecto finalizado y online (además de esta página y el blog) es <a href="http://www.usbproject.com">USBProject</a>.  Una página web realizada durante la práctica de empresa a finales de 2014, desde entonces ha sido mucha teoría pero proyecto realizado, aunque eso es algo en lo que estoy trabajando ahora.</p>
+                        <p>Los principales proyectos en los que voy a trabajar o serán sin un back-end o correrán sobre Node, ya que he tomado la decisión de dejar otros (como php o Python) para centrarme en JavaScript.</p>
+                    </div>
                 </div>
             </div>
         </section>
